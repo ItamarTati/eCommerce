@@ -37,9 +37,6 @@ function App() {
           Edit <code>src/App.tsx</code> and save to reload.
           
         </p>
-        {Profile()}
-        {LoginButton()}
-        {LogoutButton()}
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -49,6 +46,9 @@ function App() {
           Learn React
         </a>
       </header>
+      {Profile()}
+        {LoginButton()}
+        {LogoutButton()}
     </div>
   );
 }
